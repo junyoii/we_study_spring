@@ -41,7 +41,7 @@
 <span style="color:Orange; font-size:18px">1. 구현 과정 PASS</span><br>
 
 **2. 왜 스프링을 사용하는가?**<br>
-![구현 클래스 이미지](./pic/jdbcRepo.png)
+![구현 클래스 이미지](https://user-images.githubusercontent.com/49333608/122170206-43669500-ceb9-11eb-90fe-ed718f50b253.PNG)
 * 기존에 MemberRepository는 구현체인 MemoryMemberRepository를 스프링 컨테이너에서 스프링빈으로 등록 
 * JdbcMemberRepository를 만들고 SpringConfig에서 MemoryMemberRepository를 JdbcMemberRepository로 바꿈 → MemberRepository의 구현체에 JdbcMemberRepository가 새로 추가되고 스프링빈으로 등록
 * 인터페이스를 두고 구현체를 바꿔끼우는 다형성을 스프링에서 편리하게 사용할 수 있게 지원
@@ -335,7 +335,7 @@ public class SpringConfig {
   <br>
   
 **4. 스프링 데이터 JPA 제공 클래스**
-  ![구현 클래스 이미지](./pic/jpaClass.png)
+  ![구현 클래스 이미지](https://user-images.githubusercontent.com/49333608/122170087-23cf6c80-ceb9-11eb-8796-fcef33845d00.PNG)
   <br>
   <br>
 
