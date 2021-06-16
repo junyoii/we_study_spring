@@ -335,7 +335,8 @@ public class SpringConfig {
   <br>
   
 **4. 스프링 데이터 JPA 제공 클래스**
-  ![구현 클래스 이미지](https://user-images.githubusercontent.com/49333608/122170087-23cf6c80-ceb9-11eb-8796-fcef33845d00.PNG)
+<br>
+![구현 클래스 이미지](https://user-images.githubusercontent.com/49333608/122170087-23cf6c80-ceb9-11eb-8796-fcef33845d00.PNG)
   <br>
   <br>
 
